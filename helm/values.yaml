@@ -110,7 +110,7 @@ api:
     DATA_DIR: /data
     RP_ID: opengym.example.com
     ORIGIN: https://opengym.example.com
-    RP_NAME: openGym
+    RP_NAME: Gymzo
     INVITE_ONLY: ""          # "1" = signup needs an invite code
     ALLOW_GUEST: ""          # "0" = no "Continue without account"
     DEFAULT_LANG: ""         # en, de, pt-BR, th, ...

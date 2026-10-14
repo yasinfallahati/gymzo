@@ -4,7 +4,7 @@
 
 # Gymzo
 
-**By Milad · [@yasinfallahati](https://github.com/yasinfallahati)**
+**By Yasin · [@yasinfallahati](https://github.com/yasinfallahati)**
 
 A self-hosted gym and body-weight tracker you actually own, in **فارسی / English**.
 
@@ -31,7 +31,7 @@ synced across your devices, behind your own passkey login.
 
 ## About
 
-Gymzo is Milad's personal take on a private workout tracker. It runs on your own server and keeps
+Gymzo is Yasin's personal take on a private workout tracker. It runs on your own server and keeps
 all data in a folder you control: no subscription, no ads, no telemetry. It still behaves like a
 modern app. You can install it on your home screen, sign in with a passkey, use it offline, and
 sync between your phone and laptop.
@@ -148,7 +148,7 @@ npm run dev
 | `NGINX_PORT` | Port the web container listens on inside the container | `80` |
 | `BACKEND` | Name of the API service that `/api` is proxied to | `api` |
 | `PORT` | Port the API listens on; the web container proxies to the same value | `3000` |
-| `RP_NAME` | Name shown in the passkey prompt | `openGym` (set `RP_NAME=Gymzo` to rebrand the prompt) |
+| `RP_NAME` | Name shown in the passkey prompt | `Gymzo` |
 | `SESSION_DAYS` | How long a sign-in lasts, in days | `90` |
 | `ADMIN_UIDS` | User ids that get the admin dashboard, comma-separated | *(none)* |
 | `FIRST_USER_ADMIN` | `1`: the first profile created on an empty instance becomes its admin | *(off)* |

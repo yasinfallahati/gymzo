@@ -336,7 +336,7 @@ export function workoutFitMessages(w, { unit = 'kg', version = '', exOf = exOr }
   msgs.push({ global: MSG.event, fields: [[253, 'uint32', T0], [0, 'enum', 0], [1, 'enum', 0]] })   // timer start
   msgs.push({ global: MSG.deviceInfo, fields: [
     [253, 'uint32', T0], [0, 'uint8', 0], [2, 'uint16', MANUFACTURER_DEVELOPMENT], [3, 'uint32z', serial],
-    [4, 'uint16', 0], [5, 'uint16', swVersion], [27, 'string', 'openGym', 16],
+    [4, 'uint16', 0], [5, 'uint16', swVersion], [27, 'string', 'Gymzo', 16],
   ] })
 
   const laps = []
